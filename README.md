@@ -1,5 +1,5 @@
 # -Incremental-Explainable-Federated-Learning-CNN-
-Incremental Federated Learning & LIME explaination.An incremental and explainable CNN-based federated learning framework: initially trained on SVHN, then incrementally adapted to MNIST via federated knowledge distillation, with model interpretability analyzed using LIME.
+Incremental Federated Learning & LIME explaination. An incremental and explainable CNN-based federated learning framework: initially trained on SVHN, then incrementally adapted to MNIST via federated knowledge distillation, with model interpretability analyzed using LIME.
 
 link of MINST dataset: [Yann LeCun's MNIST Database](http://yann.lecun.com/exdb/mnist/)  
 
