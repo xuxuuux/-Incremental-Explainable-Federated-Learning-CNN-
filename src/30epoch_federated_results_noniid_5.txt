@@ -1,0 +1,2 @@
+Round, Client, Loss, Accuracy
+1, 1, 1.9414, 0.2400
