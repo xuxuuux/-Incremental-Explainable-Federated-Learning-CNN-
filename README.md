@@ -11,19 +11,19 @@ link of SVHN dataset:[Stanford SVHN Dataset](http://ufldl.stanford.edu/housenumb
 
 #### IID & Non-IID
 
-我的代码可以对数据进行两种类型的数据分布，IID or Non-IID.它们不同用户端下联邦学习的准确率曲线对比图如下：
+My code can generate two types of data distributions: IID or Non-IID. The comparison of accuracy curves under federated learning across different clients is shown below:
 
-<img src="picture\1.png" alt="1" style="zoom:25%;" />
+<img src="picture\1.png" alt="1" style="zoom:15%;" />
 
-<img src="picture\2.png" alt="1" style="zoom:25%;" />
+<img src="picture\2.png" alt="1" style="zoom:15%;" />
 
 ## transfer_learning_kl.py
 
 This code file uses the MNIST dataset as the incremental dataset and trains the central model, which was initially trained on the SVHN dataset, within a federated incremental learning framework based on knowledge distillation.
 
-<img src="picture\3.png" alt="1" style="zoom:25%;" />
+<img src="picture\3.png" alt="1" style="zoom:15%;" />
 
-<img src="picture\4.png" alt="1" style="zoom:25%;" />
+<img src="picture\4.png" alt="1" style="zoom:15%;" />
 
 ## final_model_with_LIME_Explaination.py
 
@@ -37,11 +37,11 @@ All of these interactions are carried out through a human-computer dialogue.
 
 <img src="picture\5.png" alt="1" style="zoom: 50%;" />
 
-<img src="picture\6.png" alt="1" style="zoom: 33%;" />
+<img src="picture\6.png" alt="1" style="zoom: 40%;" />
 
 <img src="picture\7.png" alt="1" style="zoom: 25%;" />
 
-<img src="picture\8.png" alt="1" style="zoom: 50%;" />
+<img src="picture\8.png" alt="1" style="zoom: 40%;" />
 
 ## baseline_cnn.py
 
