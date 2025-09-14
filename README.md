@@ -37,8 +37,6 @@ All of these interactions are carried out through a human-computer dialogue.
 
 <img src="picture\5.png" alt="1" style="zoom: 50%;" />
 
-<img src="picture\6.png" alt="1" style="zoom: 40%;" />
-
 <img src="picture\7.png" alt="1" style="zoom: 25%;" />
 
 <img src="picture\8.png" alt="1" style="zoom: 40%;" />
