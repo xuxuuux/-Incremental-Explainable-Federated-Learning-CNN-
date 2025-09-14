@@ -35,13 +35,13 @@ the MNIST or SVHN dataset, view the predictions of the
 federated CNN model, and generate LIME-based visual explanations.
 All of these interactions are carried out through a human-computer dialogue.
 
-![1](picture\5.png)
+<img src="picture\5.png" alt="1" style="zoom: 50%;" />
 
 <img src="picture\6.png" alt="1" style="zoom: 33%;" />
 
 <img src="picture\7.png" alt="1" style="zoom: 25%;" />
 
-![1](picture\8.png)
+<img src="picture\8.png" alt="1" style="zoom: 50%;" />
 
 ## baseline_cnn.py
 
