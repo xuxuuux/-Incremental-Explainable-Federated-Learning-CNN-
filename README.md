@@ -52,6 +52,8 @@ All Class Probabilities: {0: '0.0000', 1: '0.0000', 2: '1.0000', 3: '0.0000', 4:
 Do you want to continue to the next sample? (y/n): n
 ```
 
+<img src="picture\9.png" alt="1" style="zoom: 60%;" />
+
 ## baseline_cnn.py
 
 This code file is used to train the baseline model and visualize
