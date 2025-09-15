@@ -35,11 +35,22 @@ the MNIST or SVHN dataset, view the predictions of the
 federated CNN model, and generate LIME-based visual explanations.
 All of these interactions are carried out through a human-computer dialogue.
 
-<img src="picture\5.png" alt="1" style="zoom: 50%;" />
+```
+Please choose a dataset (MNIST / SVHN): MNIST
+Please enter the digit to predict and inspect (0-9): 2
+```
 
 <img src="picture\7.png" alt="1" style="zoom: 15%;" />
 
-<img src="picture\8.png" alt="1" style="zoom: 40%;" />
+```
+=== Sample 1/1032 ===
+True Label: 2
+Predicted Label: 2
+Prediction Probability: 1.0000
+All Class Probabilities: {0: '0.0000', 1: '0.0000', 2: '1.0000', 3: '0.0000', 4: '0.0000', 5: '0.0000', 6: '0.0000', 7: '0.0000', 8: '0.0000', 9: '0.0000'}
+100%|██████████| 10000/10000 [00:02<00:00, 3333.75it/s]
+Do you want to continue to the next sample? (y/n): n
+```
 
 ## baseline_cnn.py
 
