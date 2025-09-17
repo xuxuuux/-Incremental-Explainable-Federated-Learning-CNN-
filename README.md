@@ -1,13 +1,13 @@
-# -Incremental-Explainable-Federated-Learning-CNN-
-Incremental Federated Learning & LIME explaination. An incremental and explainable CNN-based federated learning framework: initially trained on SVHN, then incrementally adapted to MNIST via federated knowledge distillation, with model interpretability analyzed using LIME.
+# -Incremental-Explainable-Federated-Learning-CNN/SNN-
+Incremental Federated Learning & LIME explaination in dynamic/static scene recognition. This repository demonstrates a federated learning framework for image recognition using CNN and SNN. The CNN model is used for static scene recognition, while the SNN model simulates dynamic scene recognition, such as real-time street number plate detection or object tracking in moving scenes. Both models are trained incrementally with federated learning, showcasing practical applications in autonomous driving and robotic navigation.
 
 link of MINST dataset: [Yann LeCun's MNIST Database](http://yann.lecun.com/exdb/mnist/)  
 
 link of SVHN dataset:[Stanford SVHN Dataset](http://ufldl.stanford.edu/housenumbers/) 
 
-## federated_learning.py
+## federated_learning.py & federated_learning_snn.py
 
-### Based on the SVHN dataset and average aggregation for federated training
+### Based on the SVHN dataset and average aggregation for federated training in CNN or SNN
 
 #### IID & Non-IID
 
@@ -17,7 +17,7 @@ My code can generate two types of data distributions: IID or Non-IID. The compar
 
 <img src="picture\2.png" alt="1" style="zoom:15%;" />
 
-## transfer_learning_kl.py
+## transfer_learning_kl.py & transfer_learning_kl_snn.py 
 
 This code file uses the MNIST dataset as the incremental dataset and trains the central model, which was initially trained on the SVHN dataset, within a federated incremental learning framework based on knowledge distillation.
 
@@ -28,11 +28,11 @@ This code file uses the MNIST dataset as the incremental dataset and trains the 
 ## final_model_with_LIME_Explaination.py
 
 This code file provides LIME-based visual explanations
-for the federated CNN model after incremental training.
+for the federated CNN/SNN model after incremental training.
 
 In this code, you can freely choose to use digits 0–9 from either
 the MNIST or SVHN dataset, view the predictions of the
-federated CNN model, and generate LIME-based visual explanations.
+federated CNN/SNN model, and generate LIME-based visual explanations.
 All of these interactions are carried out through a human-computer dialogue.
 
 ```
@@ -54,8 +54,8 @@ Do you want to continue to the next sample? (y/n): n
 
 <img src="picture\9.png" alt="1" style="zoom: 60%;" />
 
-## baseline_cnn.py
+## baseline_cnn.py & baseline_snn.py
 
 This code file is used to train the baseline model and visualize
-the performance of the baseline CNN model on the SVHN dataset
+the performance of the baseline CNN/SNN model on the SVHN dataset
 using a confusion matrix.
